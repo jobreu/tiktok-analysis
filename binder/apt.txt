@@ -1,0 +1,4 @@
+libx11-dev
+libicu-dev
+libxml2-dev
+libglpk-dev
