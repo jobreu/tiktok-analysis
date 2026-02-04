@@ -70,7 +70,7 @@ dfm_tiktok_videos %>%
 library(ggplot2)
 
 tstat_freq <- dfm_tiktok_videos %>% 
-  dfm_remove(pattern = c("bsky.social", "dass",
+  dfm_remove(pattern = c("dass",
                          "@*", "#*")) %>%  
   textstat_frequency(n = 20)
 
